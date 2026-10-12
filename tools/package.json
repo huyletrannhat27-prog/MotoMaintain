@@ -1,0 +1,12 @@
+{
+  "name": "motomaintain-checks",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test maintenance.test.mjs database.test.mjs learning.test.mjs import.test.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.14",
+    "prettier": "^3.6.2"
+  }
+}

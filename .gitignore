@@ -1,0 +1,7 @@
+tools/node_modules/
+tools/*.log
+artifacts/
+.env*
+!.env.example
+!.env.local.example
+.claude/
